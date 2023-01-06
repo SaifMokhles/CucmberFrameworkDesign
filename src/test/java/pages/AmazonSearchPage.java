@@ -18,7 +18,7 @@ public class AmazonSearchPage {
 	@FindBy (id = "nav-search-submit-button")
 	public WebElement searchButton;
 	
-	@FindBy (css = ".a-color-state")
+	@FindBy (xpath = "//span[@class='a-color-state a-text-bold']")
 	public WebElement searchResultPageText;
 	
 
